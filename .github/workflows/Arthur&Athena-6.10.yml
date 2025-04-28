@@ -1,4 +1,4 @@
-name: Arthur&Athena-6.12
+name: Arthur&Athena-6.10
 
 on:
   workflow_dispatch:
