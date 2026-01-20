@@ -139,7 +139,6 @@ jobs:
         cd $OPENWRT_PATH/bin/targets/*/*
         cp $OPENWRT_PATH/.config Arthur.Athena.Taiyi.config
         mv config.buildinfo Arthur.Athena.Taiyi.config.buildinfo
-        mv immortalwrt-qualcommax-ipq60xx.manifest immortalwrt-qualcommax-ipq60xx-Arthur.Athena.Taiyi.manifest
         mv -f $OPENWRT_PATH/bin/packages/*/*/*.apk packages
         tar -zcf Arthur.Athena.Taiyi.Packages.tar.gz packages
         mkdir -p dl
